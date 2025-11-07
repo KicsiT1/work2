@@ -1,0 +1,138 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: var(--main_color);
+}
+ :root 
+ {
+    --heder_color:#FF6600;
+    --main_color:#FEA500;
+    --add_task:#FFCA69;
+    --date_color:#DFE20F;
+    --red_button:#FF0000;
+    --green_button:#55FF00;
+    --Plus_hover_color:#97520d;
+}
+header
+{
+    text-align: center;
+    color: var(--main_color);
+    background-color: var(--heder_color);
+}
+h1
+{
+    padding: 16px 0px 16px 0px;
+}
+.button_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_task_btn
+{
+    padding: 16px 13px 16px 9px;
+    font-size: 1.5rem;
+    background-color: var(--add_task);
+    color: var(--heder_color);
+    border: none;
+    margin-top: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 32px;
+}
+.plus
+{
+    margin-left: 8px;
+    height: 32px;
+    width: 32px;
+    background-color: var(--heder_color);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.plus:hover
+{
+    background-color:var(--Plus_hover_color);
+    cursor: pointer;
+}
+.plus>i
+{
+    color:var(--main_color);
+}
+.card_flex_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 20px;
+
+}
+.card
+{
+    background-color: var(--add_task);
+    border-radius: 24px;
+}
+p
+{
+    text-align: center;
+    font-size: 1rem;
+    width: 256px;
+    background-color: var(--date_color);
+    padding: 7px 84px 7px;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+textarea
+{
+    margin-left: 16px;
+    margin-right: 16px;
+    resize: none;
+    background-color: var(--add_task);
+    border: none;
+    margin-bottom: 15px;
+    color: var(--heder_color);
+}
+
+.card>div>span
+{
+    display: inline-block;
+    background-color: var(--heder_color);
+    padding: 32px;
+    border-radius: 50%;
+    color: var(--main_color);
+}
+.card>div
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.card>div>button
+{
+    float: right;
+    border: none;
+    padding: 32px;
+    border-radius: 50%;
+}
+.btn1
+{
+    margin-left: 13px;
+    background-color: var(--green_button);
+    cursor: pointer;
+    color: var(--main_color);
+}
+.btn2
+{   
+    background-color: var(--red_button);
+    cursor: pointer;
+    color: var(--main_color);
+}
