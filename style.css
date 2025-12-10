@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 body
 {
@@ -149,3 +150,4 @@ textarea
         font-size: 1.3rem;
     }
 }
+
